@@ -1,0 +1,29 @@
+2025-04-27 21:43:39,372 - ERROR - Ошибка загрузки модели: SentimentAnalyzer.__init__() takes 1 positional argument but 2 were given
+2025-04-27 21:46:56,322 - ERROR - Ошибка загрузки модели: SentimentAnalyzer.__init__() takes 1 positional argument but 2 were given
+2025-04-27 22:09:21,021 - INFO - Модель загружена из: cointegrated/rubert-tiny2
+2025-04-27 22:09:21,023 - INFO - Модель успешно загружена
+2025-04-27 22:12:20,590 - INFO - Модель загружена из: cointegrated/rubert-tiny2
+2025-04-27 22:12:20,591 - INFO - Модель успешно загружена
+2025-04-27 22:16:03,265 - INFO - Модель загружена из: cointegrated/rubert-tiny2
+2025-04-27 22:16:03,266 - INFO - Модель успешно загружена
+2025-04-27 22:27:34,540 - INFO - Модель загружена из: cointegrated/rubert-tiny2
+2025-04-27 22:27:34,545 - INFO - Модель успешно загружена
+2025-04-27 22:27:52,013 - ERROR - Ошибка сохранения истории: Object of type ndarray is not JSON serializable
+2025-04-27 22:28:08,157 - INFO - Настройки обновлены: {'MAX_TEXT_LENGTH': 20000, 'CONFIDENCE_THRESHOLD': 0.5, 'MODEL_PATH': 'cointegrated/rubert-tiny2'}
+2025-04-27 22:28:09,045 - ERROR - Ошибка сохранения истории: Object of type ndarray is not JSON serializable
+2025-04-27 22:28:16,534 - INFO - Настройки обновлены: {'MAX_TEXT_LENGTH': 20000, 'CONFIDENCE_THRESHOLD': 1.0, 'MODEL_PATH': 'cointegrated/rubert-tiny2'}
+2025-04-27 22:28:17,476 - ERROR - Ошибка сохранения истории: Object of type ndarray is not JSON serializable
+2025-04-27 22:28:50,022 - ERROR - Ошибка сохранения истории: Object of type ndarray is not JSON serializable
+2025-04-27 22:29:03,943 - ERROR - Ошибка сохранения истории: Object of type ndarray is not JSON serializable
+2025-04-27 22:29:47,238 - ERROR - Ошибка сохранения истории: Object of type ndarray is not JSON serializable
+2025-04-27 22:29:53,645 - ERROR - Ошибка сохранения истории: Object of type ndarray is not JSON serializable
+2025-04-27 22:30:14,435 - INFO - Настройки обновлены: {'MAX_TEXT_LENGTH': 2000, 'CONFIDENCE_THRESHOLD': 1.0, 'MODEL_PATH': 'cointegrated/rubert-tiny2'}
+2025-04-27 22:30:15,580 - ERROR - Ошибка сохранения истории: Object of type ndarray is not JSON serializable
+2025-04-27 22:30:27,767 - INFO - Настройки обновлены: {'MAX_TEXT_LENGTH': 2000, 'CONFIDENCE_THRESHOLD': 0.6881720430107527, 'MODEL_PATH': 'cointegrated/rubert-tiny2'}
+2025-04-27 22:30:28,567 - ERROR - Ошибка сохранения истории: Object of type ndarray is not JSON serializable
+2025-04-27 22:34:02,784 - ERROR - Ошибка загрузки истории: Expecting value: line 3 column 14 (char 19)
+2025-04-27 22:34:10,012 - INFO - Модель загружена из: cointegrated/rubert-tiny2
+2025-04-27 22:34:10,013 - INFO - Модель успешно загружена
+2025-04-27 22:35:51,540 - INFO - Настройки обновлены: {'MAX_TEXT_LENGTH': 20000, 'CONFIDENCE_THRESHOLD': 0.5913978494623656, 'MODEL_PATH': 'cointegrated/rubert-tiny2'}
+2025-04-27 22:36:03,723 - INFO - Настройки обновлены: {'MAX_TEXT_LENGTH': 20000, 'CONFIDENCE_THRESHOLD': 0.5, 'MODEL_PATH': 'cointegrated/rubert-tiny2'}
+2025-04-27 22:36:12,396 - INFO - Настройки обновлены: {'MAX_TEXT_LENGTH': 20000, 'CONFIDENCE_THRESHOLD': 1.0, 'MODEL_PATH': 'cointegrated/rubert-tiny2'}
