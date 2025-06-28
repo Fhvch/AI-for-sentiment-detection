@@ -1,7 +1,0 @@
-*.pkg filter=lfs diff=lfs merge=lfs -text
-*.safetensors filter=lfs diff=lfs merge=lfs -text
-*.pyz filter=lfs diff=lfs merge=lfs -text
-
-data/models/* linguist-vendored
-data/raw/* linguist-vendored
-build/* linguist-generated
