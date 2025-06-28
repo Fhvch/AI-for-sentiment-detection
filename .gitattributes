@@ -1,12 +1,23 @@
+# --- Секция для Git LFS (оставляем как есть) ---
 *.pkg filter=lfs diff=lfs merge=lfs -text
 *.safetensors filter=lfs diff=lfs merge=lfs -text
 *.pyz filter=lfs diff=lfs merge=lfs -text
 
-*.py linguist-language=Python
-*.html linguist-vendored
-*.tex linguist-vendored
+# --- Секция для GitHub Linguist (полностью новая) ---
 
-# Linguist overrides
-data/models/**/* linguist-vendored
+# Шаг 1: Прямо указываем, что файлы .py - это код на Python.
+# Это правило имеет высокий приоритет.
+*.py linguist-language=Python
+
+# Шаг 2: Исключаем из анализа конкретные большие файлы.
+# Это более точно, чем исключать целую папку.
+data/models/model.safetensors linguist-vendored
+build/SentimentAnalyzer/SentimentAnalyzer.pkg linguist-vendored
+build/SentimentAnalyzer/PYZ-00.pyz linguist-vendored
+
+# Шаг 3: Исключаем JSON-файлы в папке с моделью, которые могут вводить в заблуждение.
+data/models/*.json linguist-vendored
+
+# Шаг 4: Оставляем общие правила для папок на всякий случай.
 data/raw/* linguist-vendored
 build/* linguist-generated
