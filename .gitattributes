@@ -5,7 +5,7 @@
 *.py linguist-language=Python
 *.py linguist-detectable=true
 *.html linguist-vendored
-*.tex linguist-detectable=false  # или linguist-documentation
+*.tex linguist-documentation
 
 # Linguist overrides
 data/models/**/* linguist-vendored
