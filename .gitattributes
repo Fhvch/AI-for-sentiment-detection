@@ -4,7 +4,7 @@
 
 *.py linguist-language=Python
 *.html linguist-vendored
-*.tex linguist-documentation
+*.tex linguist-vendored
 
 # Linguist overrides
 data/models/**/* linguist-vendored
