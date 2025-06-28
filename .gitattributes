@@ -2,10 +2,10 @@
 *.safetensors filter=lfs diff=lfs merge=lfs -text
 *.pyz filter=lfs diff=lfs merge=lfs -text
 
-*.py linguist-language=Python
-*.py linguist-detectable=true
-*.html linguist-vendored
 *.tex linguist-documentation
+*.html linguist-documentation
+*.py linguist-detectable=true
+* linguist-language=Python
 
 # Linguist overrides
 data/models/**/* linguist-vendored
